@@ -9,7 +9,7 @@ LOGGING['handlers'].update({
         'level': 'INFO',
         'class': 'logging.handlers.TimedRotatingFileHandler',
         'formatter': 'verbose',
-        'filename': '/home/me/logs/user/mysite/myproject.error.log',
+        'filename': '/home/me/logs/user/mysite/myproject_django.error.log',
         'when': 'midnight',
         'interval': 1,
         'backupCount': 5
